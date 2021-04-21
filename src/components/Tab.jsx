@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+//Tabs inside placeholder
 class Tab extends Component {
   render() {
     if (this.props.isSelected) {

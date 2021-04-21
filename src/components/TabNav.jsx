@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+//Tabs
 class TabNav extends Component {
   render() {
     const tabStyle = {
@@ -11,7 +12,7 @@ class TabNav extends Component {
       borderColor: '#fff',
     };
     return (
-      <div style={{ width: '90%' }}>
+      <div style={{ width: 'flex' }}>
         <ul className="nav nav-tabs">
           {this.props.tabs.map((tab) => {
             const active = tab === this.props.selected ? 'active ' : '';
