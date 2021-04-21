@@ -1,0 +1,8 @@
+@font-face {
+  src: url(fonts/ProximaNova-Regular.otf);
+  font-family: prox;
+}
+
+body, div {
+  font-family: prox;
+}
