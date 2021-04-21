@@ -31,8 +31,8 @@ body{
 }
 
 .card{
-    width: 480px;
-    height: 524px;
+    width: flex;
+    height: flex;
     margin-top: 10px;
     display: inline-block;
 }
@@ -57,7 +57,7 @@ body{
 
 .overflow{
     overflow: hidden;
-    width: 480px;
+    width: 400px;
     height: 324px;
 }
 

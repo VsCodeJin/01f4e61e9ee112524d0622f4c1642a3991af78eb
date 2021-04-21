@@ -3,8 +3,31 @@
   font-family: prox;
 }
 
-.App {
+.App{
+  width: 375px;
+  margin: 0 auto;
+}
+
+.Date{
+  margin-top: 40px;
+  margin-left: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.75;
+}
+
+.Date2{
+  margin-top: 40px;
+  margin-left: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.75;
+}
+
+.Tabs {
   display: flex;
+  margin-right: 10px;
+  margin-left: 10px;
   flex-direction: row;
   justify-content: center;
 }
@@ -13,8 +36,5 @@ body, div {
   font-family: prox;
 }
 
-.tab-item-list{
-  background-color: aqua;
-  color: red;
-}
+
 
