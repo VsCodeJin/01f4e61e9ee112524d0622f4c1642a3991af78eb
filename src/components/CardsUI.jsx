@@ -12,13 +12,13 @@ const Card = (props) => {
       <div className="card-body text-dark">
         <div className="flex">
           <h4 className="card-rating text-left">4.5</h4>
-          <img src={Star} alt="star" className="star"/>
+          <img src={Star} alt="star" className="star" />
         </div>
         <h4 className="card-title text-left">{props.title}</h4>
         <h4 className="card-desc text-left">by Kulina ·Uptown Lunch</h4>
         <div className="flex text">
           <p className="card-text text-secondary float-down">Rp 35.0000</p>
-          <a href="#" className="btn">
+          <a href="#" className="btn" onClick={() => console.log('test')}>
             Add to Cart
           </a>
         </div>

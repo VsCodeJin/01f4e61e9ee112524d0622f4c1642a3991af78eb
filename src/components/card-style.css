@@ -18,8 +18,8 @@ body{
 }
 
 .btn{
-    background-color: #f9423a;
-    outline-color: #f9423a;
+    background-color: #f9234a;
+    outline-color: #f9234a;
     color: #fff;
     margin-left: auto;
     align-self: center;
@@ -35,6 +35,7 @@ body{
     height: flex;
     margin-top: 10px;
     display: inline-block;
+    box-shadow: 0px 8px 10px 0px rgba(10,31,68,0.1) !important;
 }
 
 .card:hover{
@@ -46,13 +47,14 @@ body{
 }
 
 .card-text{
+    color: #424749;
     font-size: 20px;
     margin-top: 24px;
 }
 
 .card-desc{
+    color: #6e7679;
     font-size: 14px;
-    opacity: 0.5;
 }
 
 .overflow{
